@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.my-btn{
+	display: flex;
+	justify-content:space-between;
+
+}
+.banner_content h1{
+	font-size: 42px;
+    color: #000;
+    font-weight: bold;
+}
+.brand_section{
+	margin: 10px 0 60px;
+	padding: 60px 0 50px;
+}
+.banner_content p{
+	text-align: justify;
+}
+.brand_section{
+	background-color: #F1F3FB;
+}
+.brand_content h2{
+	font-size: 25px;
+	font-weight: 600;
+}
+.list{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.list li{
+	display: inline-flex;
+	padding: 20px 25px 0;
+}
+.product_heading{
+	padding: 10px 0 10px;
+	text-align: center;
+}
+.product_heading h2{
+	font-size: 35px;
+}
+.product_heading1 {
+	padding: 20px 0 50px;
+}
+/* .product_heading p{
+	padding: 0 100px;
+} */
+.para{
+	color: #9c9292;
+	font-size: 16px;
+	text-align: justify;
+}
+.problem_text h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.product_section{
+	padding: 60px 0 100px;
+}
+.product_one_section{
+	padding: 20px 0 60px;
+}
+.result_section{
+	padding: 80px 0;
+}
+.result_heading h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 800;
+}
+.result_image{
+	text-align: center;
+	border: 5px solid #EEF2F5;
+	padding: 30px 20px;
+}
+.result_image img{
+	text-align: center;
+	display: block;
+}
+.percent{
+	display: flex;
+	justify-content:space-between;
+}
+
+.inforce-image img{
+	padding-bottom: 10px;
+}
+.visitor_content h1{
+	font-size: 30px;
+	font-weight: 700;
+}
+.visitor_section{
+	padding: 100px 0 70px;
+}
+.video_section{
+	margin: 100px 0;
+}
+.footer_section{
+	background-color: #F1F4FB;
+	padding: 20px 0;
+}
+.footer_list{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.footer_list li{
+	display: inline-flex;
+	padding: 3px 10px 0;
+}
+
+
+@media(max-width: 768px){
+	.percent{
+	justify-content:space-around;
+	}
+	.problem-image img{
+		margin-bottom: 30px;
+	}
+	.banner_content{
+		margin-bottom: 50px;
+	}
+	.brand_content{
+		margin-bottom: 60px;
+	}
+	.product_heading p{
+		padding: 0;
+	}
+	.problem-image img:first-child{
+		margin: 40px 0;
+	}
+	.benefit-image img:first-child{
+		margin: 40px 0;
+	}
+	.result_image{
+		margin: 40px 0;
+	}
+	.visitor_content, .video_content{
+		padding-bottom: 50px;
+	}
+	.brand_section{
+		margin: 10px 0 20px;
+	}
+	.product_heading1 {
+	    padding: 20px 0 10px;
+	}
+	.product_section {
+	    padding: 60px 0 40px;
+	}
+	.result_section {
+	    padding: 10px 0;
+	}
+
+}
+	
+
